@@ -59,8 +59,7 @@ dependencies {
 
     implementation("love.broccolai.corn:corn-minecraft:4.1.0-SNAPSHOT")
     implementation("love.broccolai.corn:corn-trove:4.1.0-SNAPSHOT")
-    //implementation("com.seiama", "event-api", "1.0.0-SNAPSHOT")
-    implementation(files("../event/event-api/build/libs/event-api-1.0.0-SNAPSHOT.jar"))
+    implementation("com.sasorio:event-api:1.0.0")
 
     // database
     implementation("com.zaxxer:HikariCP:6.3.0")
@@ -84,7 +83,7 @@ reloc("org.incendo.cloud")
 reloc("org.spongepowered.configurate")
 reloc("net.kyori.option")
 reloc("com.typesafe.config")
-reloc("com.seiama.event")
+reloc("com.sasorio.event")
 reloc("net.kyori.moonshine")
 reloc("com.zaxxer.hikari")
 reloc("io.leangen.geantyref")
